@@ -3,12 +3,12 @@ package biker2
 import (
     "github.com/google/uuid"
     utils "SOMAS2023/internal/common/utils"
-    baseBiker "SOMAS2023/internal/common/objects/BaseBiker"
+    objects "SOMAS2023/internal/common/objects"
     baseAgent "github.com/MattSScott/basePlatformSOMAS/BaseAgent"
 )
 
 type Biker2 struct {
-    *BaseBiker
+    *objects.BaseBiker
 }
 
 
